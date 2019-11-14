@@ -1,0 +1,7 @@
+@mixin MoreIcon($iTop,$iRight){position:absolute; top:$iTop; right:$iRight; font-style:normal; font-size:15px; font-weight:bold; line-height:20px;}
+
+$imageUrl:"../img/";
+@mixin BgImage($image){background-image:url($imageUrl+$image); background-repeat:no-repeat;
+                       background-position:50% 50%; background-size:contain;}
+
+@mixin Strock{&:before{content:" "; display:block; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:135px; height:1px; background-color:$black;}}

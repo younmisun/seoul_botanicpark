@@ -1,0 +1,54 @@
+//seoul_botanicpark_main.scss
+
+#wrap {min-width:37.50vw;}
+
+#headBox{height:11.7188vw; -webkit-height:150px}
+#headBox>h1{height:8.5938vw; -webkit-height:110px;}
+#headBox>h1>a{width:14.0625vw; height:3.9063vw; -webkit-width:180px; -webkit-height:50px;}
+
+#head_menu_web{height:3.1250vw; -webkit-height:40px;}
+#head_menu_web>ul{width:46.8750vw; height:3.1250vw; -webkit-width:600px; -webkit-height:40px;}
+
+  .view_img{width:76.5625vw; height:40.1563vw; -webkit-width:980px; -webkit-height:514px; 
+            background-position:0% 60%;}
+  .view_bgcolor{top:437px; width:100vw; height:40.1563vw;
+                -webkit-width:100%; -webkit-height:514px;}
+  .viewBox>p{right:165px; top:210px;}
+.view_tpg{width:39.8438vw; height:20.0781vw; -webkit-width:510px; -webkit-height:257px;}
+  .tpg_contents{width:auto; height:12.3438vw; -webkit-height:158px;}
+.seoul_news{width:76.5625vw;-webkit-width:980px;}
+  .news_contents div{width:38.2813vw; height:16.4063vw; -webkit-width:490px; -webkit-height:210px;}
+
+  .seoul_recom_button{width:39.0625vw; -webkit-width:500px;}
+    .seoul_recom_plant{float:left; width:17.9688vw; height:11.7188vw; -webkit-width:230px; -webkit-height:150px;}
+    .seoul_recom_place{width:17.9688vw; height:11.7188vw; -webkit-width:230px; -webkit-height:150px;}
+
+    .short_line {width:62.50vw; -webkit-width:800px;}
+    .seoul_plant_area{width:100vw; height:54.6875vw; -webkit-width:100%; -webkit-height:700px;}
+
+    .seoul_plant_area_info_mothly{width:40.6250vw; height:15.6250vw; -webkit-width:520px; -webkit-height:200px;}
+    .seoul_plant_area_info_mothly li:first-child{float:left; width:14.0625vw; height:14.0625vw; 
+       -webkit-width:180px; -webkit-height:180px;}
+    .seoul_plant_area_info_mothly li:last-child{float:right; width:23.4375vw; height:15.6250vw;
+       width:300px; height:200px;}
+
+  .seoul_plant_area_info_library{width:14.0625vw; height:12.8906vw; -webkit-width:180px; -webkit-height:165px;}
+    .seoul_plant_area_info_library li:nth-child(2)>a{display:block; width:7.8125vw; height:2.7344vw;
+       -webkit-width:100px; -webkit-height:35px;}
+    
+    .seoul_plant_area_info_seach{width:31.2500vw; height:9.7656vw; -webkit-width:400px; -webkit-height:125px;}
+    .seoul_recom_seach{width:100%; height:3.9063vw; -webkit-width:100%; -webkit-height:50px;}
+    .seach_box{width:100%; height:3.5938vw; -webkit-width:400px; -webkit-height:46px;}
+    .seoul_recom_seach input[type="text"]{float:right; width:26.5625vw; height:3.5938vw; -webkit-width:340px;
+       -webkit-height:46px;}
+    .seoul_recom_seach input[type="submit"]{width:2.0313vw; height:2.0313vw; -webkit-width:26px; -webkit-height:26px;}
+
+.holiday_info{width:62.50vw; height:8.5938vw; -webkit-width:800px; -webkit-height:110px;}
+.holiday_info ul{width:34.7656vw; height:8.5938vw; -webkit-width:445px; -webkit-height:110px;}
+.holiday_info li:nth-child(2)>a{width:7.8125vw; height:2.7344vw; -webkit-width:100px; -webkit-height:35px;}
+
+#footBox{width:100vw; height:10.9375vw; -webkit-width:100%; -webkit-height:140px;}
+  .foot_sns{position:absolute; right:255px; bottom:32px;}
+  .foot_sns li{width:3.5156vw; height:3.5156vw; -webkit-width:45px; -webkit-height:45px;}
+  .foot_info{width:60.9375vw; height:9.3750vw; -webkit-width:780px; -webkit-height:120px;}
+  .foot_info p{width:auto; height:3.750vw; -webkit-height:48px;}
