@@ -1,0 +1,155 @@
+#headBox {
+  width: 355px;
+  height: auto;
+  padding-top: 45px; }
+  #headBox h1 {
+    float: left;
+    width: 122px;
+    height: 33px;
+    background-image: url("../img/white_logo_mobile.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 auto;
+    background-size: auto; }
+  #headBox #gnb_mob {
+    display: block;
+    float: right;
+    width: 29px;
+    height: 24px;
+    background-image: url("../img/icon/gnb_mobile.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    #headBox #gnb_mob > a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #headBox #gnb {
+    display: none; }
+
+#contentBox {
+  width: 100%;
+  height: 895px; }
+  #contentBox #viewBox {
+    width: 100%;
+    height: 550px; }
+    #contentBox #viewBox .slide_indicator {
+      display: none; }
+    #contentBox #viewBox .view_img .imgList_view .img01 {
+      background-image: url("../img/bgimg/main_01_mobile_480.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    #contentBox #viewBox .view_img .imgList_view .img02 {
+      background-image: url("../img/bgimg/main_02_mobile_480.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    #contentBox #viewBox .view_img .imgList_view .img03 {
+      background-image: url("../img/bgimg/main_07_mobile_480.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    #contentBox #viewBox .view_img .imgList_view .img04 {
+      background-image: url("../img/bgimg/main_04_mobile_480.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+  #contentBox #place {
+    bottom: 15px;
+    width: 380px;
+    height: 513px; }
+    #contentBox #place article {
+      width: 185px;
+      height: 245px;
+      margin-bottom: 10px; }
+      #contentBox #place article .number {
+        margin-top: 18px; }
+      #contentBox #place article:nth-of-type(2n) {
+        margin-right: 0; }
+
+#today_program {
+  width: 380px;
+  height: 450px;
+  margin: auto;
+  margin-top: 100px; }
+  #today_program .today_btn {
+    top: 0; }
+  #today_program article {
+    width: 185px;
+    height: 185px; }
+    #today_program article:nth-of-type(2n) {
+      margin-right: 0; }
+    #today_program article:nth-of-type(3n) {
+      margin-right: 10px; }
+    #today_program article:nth-of-type(3) {
+      margin-bottom: 0; }
+    #today_program article:nth-of-type(4) {
+      margin-bottom: 0; }
+    #today_program article:nth-of-type(5) {
+      display: none; }
+    #today_program article:nth-of-type(6) {
+      display: none; }
+
+#newsArea {
+  width: 100%;
+  height: 390px;
+  margin-top: 100px;
+  background-image: url("../img/bgimg/newsArea_mobile_480.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  #newsArea .news {
+    width: 380px;
+    height: auto; }
+    #newsArea .news .news_title {
+      position: relative;
+      float: none;
+      padding-top: 0; }
+      #newsArea .news .news_title h3 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 18px;
+        margin-bottom: 30px; }
+        #newsArea .news .news_title h3 span {
+          font-size: 13px;
+          text-transform: uppercase; }
+      #newsArea .news .news_title p {
+        display: none; }
+      #newsArea .news .news_title .news_btn {
+        position: absolute;
+        top: 0px;
+        right: 30px;
+        width: 43px;
+        height: 23px;
+        margin-top: 0; }
+    #newsArea .news .news_list {
+      width: 380px; }
+
+#plant {
+  width: 410px;
+  margin-top: 100px; }
+  #plant article {
+    width: 130px; }
+
+#holiday_info {
+  width: 100%;
+  margin-top: 100px; }
+  #holiday_info:before {
+    width: 90%; }
+
+#gallery {
+  width: 100%; }
+  #gallery .gallery_btn {
+    display: none; }
+
+#footBox {
+  width: 100%; }
+  #footBox ul {
+    width: 335px;
+    height: 65px;
+    margin-top: 30px;
+    text-align: center; }
+    #footBox ul li {
+      padding: 5px 5px; }
