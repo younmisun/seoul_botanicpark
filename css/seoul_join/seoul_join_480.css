@@ -43,8 +43,11 @@
   height: 170px; }
   #join_contentBox #join_viewBox .join_menu .join_nav {
     width: 100%;
-    height: 80px;
-    background-color: #6e77a3; }
+    height: 80px; }
+    #join_contentBox #join_viewBox .join_menu .join_nav ul {
+      width: 188px; }
+      #join_contentBox #join_viewBox .join_menu .join_nav ul li {
+        padding: 28px 10px; }
 
 #join {
   width: 100%;
