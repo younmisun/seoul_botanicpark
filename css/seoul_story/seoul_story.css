@@ -59,7 +59,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-position: 0 0;
-    background-size: auto; }
+    background-size: 100%; }
     #story_contentBox #story_viewBox .story_menu {
       position: absolute;
       width: 100%;
