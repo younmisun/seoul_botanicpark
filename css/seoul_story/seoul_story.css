@@ -58,8 +58,7 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    background-position: 0 0;
-    background-size: 100%; }
+    background-position: 0 0; }
     #story_contentBox #story_viewBox .story_menu {
       position: absolute;
       width: 100%;

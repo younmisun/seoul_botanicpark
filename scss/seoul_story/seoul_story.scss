@@ -8,7 +8,7 @@
 #headBox{@include headBox_web;}
 #story_contentBox{width:100%; height:auto;
   #story_viewBox{position:relative; width:100%; height:450px;
-    @include BgImage('bgimg/main_01.jpg'); background-position:0 0; background-size:100%;
+    @include BgImage('bgimg/main_01.jpg'); background-position:0 0; 
     .story_menu{position:absolute; width:100%; height:140px; bottom:-40px;
       h3{font-size:20px; text-align:center; color:$white}
       .story_nav{width:830px; height:80px; background-color:$Purple; margin:auto; margin-top:30px;
