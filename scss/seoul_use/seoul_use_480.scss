@@ -1,0 +1,29 @@
+@import "../_basic/mixin";
+@import "../_basic/var";
+@import "../_basic/common";
+
+#wrap{position:relative; width:100%; height:auto;}
+#headBox{@include headBox_mobile_480;}
+#use_contentBox{width:100%; height:auto;
+  #use_viewBox{position:relative; width:100%; height:450px;
+    @include BgImage('bgimg/main_04.jpg'); background-position:0 10%;
+    .use_menu{position:absolute; width:100%; height:140px; bottom:-40px;
+      h3{font-size:20px; text-align:center; color:$white}
+      .use_nav{width:100%; height:80px;
+        ul{width:375px;}
+    }}//use_viewBox
+  }//use_contentBox
+#use{width:100%; height:auto; text-align:center; margin-top:150px;
+  .use_text{display:block; width:330px; margin:auto; word-break:keep-all;}
+  .use_floor{width:100%; height:auto; margin-top:50px;
+    h4{font-size:20px; margin-bottom:10px;}
+    p{word-break:keep-all;
+      &:after{content:" "; display:block; width:310px; height:1px; margin:auto; margin-top:20px; margin-bottom:30px; background-color:$Brown;}}
+    >div{width:357px; height:360px;
+      &:first-of-type{height:340px;}
+      &:last-of-type{height:83px;}
+      div{float:left; width:357px; height:227px; margin-right:0px;
+        &:last-of-type{margin-right:0; display:none;}}}
+  }  
+}//use
+#footBox{@include footBox_mobile; margin-top:100px;}

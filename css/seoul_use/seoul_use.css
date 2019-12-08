@@ -1,0 +1,384 @@
+#wrap {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+#headBox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  width: 1063px;
+  height: 80px;
+  padding-top: 20px;
+  box-sizing: border-box; }
+  #headBox h1 {
+    float: left;
+    width: 180px;
+    height: 50px;
+    background-image: url("../../img/white_logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 auto;
+    background-size: 80%; }
+    #headBox h1 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #headBox #gnb_mob {
+    display: none; }
+  #headBox #gnb {
+    float: right;
+    width: 790px;
+    height: 50px; }
+    #headBox #gnb a {
+      color: #fff; }
+    #headBox #gnb .gnb_menu li {
+      float: left;
+      padding: 15px 28px;
+      text-align: center;
+      font-size: 15px; }
+    #headBox #gnb .gnb_member {
+      float: right;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 15px; }
+      #headBox #gnb .gnb_member a:first-of-type {
+        margin-right: 15px; }
+
+#use_contentBox {
+  width: 100%;
+  height: auto; }
+  #use_contentBox #use_viewBox {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../img/bgimg/main_04.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-position: 0 10%; }
+    #use_contentBox #use_viewBox .use_menu {
+      position: absolute;
+      width: 100%;
+      height: 140px;
+      bottom: -40px; }
+      #use_contentBox #use_viewBox .use_menu h3 {
+        font-size: 20px;
+        text-align: center;
+        color: #fff; }
+      #use_contentBox #use_viewBox .use_menu .use_nav {
+        width: 830px;
+        height: 80px;
+        background-color: #a88771;
+        margin: auto;
+        margin-top: 30px; }
+        #use_contentBox #use_viewBox .use_menu .use_nav ul {
+          width: 455px;
+          height: 100%;
+          margin: auto;
+          font-size: 16px; }
+          #use_contentBox #use_viewBox .use_menu .use_nav ul li {
+            float: left;
+            padding: 28px 20px; }
+            #use_contentBox #use_viewBox .use_menu .use_nav ul li > a {
+              color: #fff; }
+
+#use {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 150px; }
+  #use h3 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 18px;
+    margin-bottom: 30px; }
+    #use h3 span {
+      font-size: 13px;
+      text-transform: uppercase; }
+  #use .use_floor {
+    width: 100%;
+    height: auto;
+    margin-top: 50px; }
+    #use .use_floor h4 {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    #use .use_floor p {
+      font-size: 15px; }
+      #use .use_floor p:after {
+        content: " ";
+        display: block;
+        width: 310px;
+        height: 1px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        background-color: #a88771; }
+    #use .use_floor > div {
+      width: 730px;
+      height: 339px;
+      margin: auto;
+      margin-bottom: 50px; }
+      #use .use_floor > div:last-of-type {
+        height: 83px; }
+      #use .use_floor > div div {
+        float: left;
+        width: 357px;
+        height: 227px;
+        margin-right: 15px; }
+        #use .use_floor > div div:last-of-type {
+          margin-right: 0; }
+      #use .use_floor > div:nth-of-type(1) .img_01 {
+        background-image: url("../../img/use/floor_04_01.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+      #use .use_floor > div:nth-of-type(1) .img_02 {
+        background-image: url("../../img/use/floor_04_02.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+      #use .use_floor > div:nth-of-type(2) .img_01 {
+        background-image: url("../../img/use/floor_02_01.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+      #use .use_floor > div:nth-of-type(2) .img_02 {
+        background-image: url("../../img/use/floor_02_02.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+      #use .use_floor > div:nth-of-type(3) .img_01 {
+        background-image: url("../../img/use/floor_01_01.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+      #use .use_floor > div:nth-of-type(3) .img_02 {
+        background-image: url("../../img/use/floor_01_02.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+      #use .use_floor > div:nth-of-type(4) .img_01 {
+        background-image: url("../../img/use/floor_B1_01.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+      #use .use_floor > div:nth-of-type(4) .img_02 {
+        background-image: url("../../img/use/floor_B1_02.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+
+#footBox {
+  width: 100%;
+  height: 130px;
+  margin-top: 50px;
+  background-color: #55a37c;
+  margin-top: 100px; }
+  #footBox ul {
+    width: 720px;
+    height: auto;
+    margin: auto;
+    margin-top: 35px; }
+    #footBox ul li {
+      float: left;
+      padding: 20px 10px;
+      font-size: 15px; }
+
+@media screen and (max-width: 767px) {
+  #wrap {
+    position: relative;
+    width: 100%;
+    height: auto; }
+  #headBox {
+    width: 355px;
+    height: auto;
+    padding-top: 45px; }
+    #headBox h1 {
+      float: left;
+      width: 122px;
+      height: 33px;
+      background-image: url("../../img/white_logo_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      margin: 0 auto;
+      background-size: auto; }
+      #headBox h1 a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    #headBox #gnb_mob {
+      display: block;
+      float: right;
+      width: 29px;
+      height: 24px;
+      background-image: url("../../img/icon/gnb_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      #headBox #gnb_mob > button {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+    #headBox #gnb {
+      display: none; }
+  #use_contentBox {
+    width: 100%;
+    height: auto; }
+    #use_contentBox #use_viewBox {
+      position: relative;
+      width: 100%;
+      height: 450px;
+      background-image: url("../../img/bgimg/main_04.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      background-position: 0 10%; }
+      #use_contentBox #use_viewBox .use_menu {
+        position: absolute;
+        width: 100%;
+        height: 140px;
+        bottom: -40px; }
+        #use_contentBox #use_viewBox .use_menu h3 {
+          font-size: 20px;
+          text-align: center;
+          color: #fff; }
+        #use_contentBox #use_viewBox .use_menu .use_nav {
+          width: 100%;
+          height: 80px; }
+          #use_contentBox #use_viewBox .use_menu .use_nav ul {
+            width: 375px; }
+            #use_contentBox #use_viewBox .use_menu .use_nav ul li {
+              padding: 28px 10px; }
+  #use {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 150px; }
+    #use .use_text {
+      display: block;
+      width: 330px;
+      margin: auto;
+      word-break: keep-all; }
+    #use .use_floor {
+      width: 100%;
+      height: auto;
+      margin-top: 50px; }
+      #use .use_floor h4 {
+        font-size: 20px;
+        margin-bottom: 10px; }
+      #use .use_floor p {
+        word-break: keep-all; }
+        #use .use_floor p:after {
+          content: " ";
+          display: block;
+          width: 310px;
+          height: 1px;
+          margin: auto;
+          margin-top: 20px;
+          margin-bottom: 30px;
+          background-color: #a88771; }
+      #use .use_floor > div {
+        width: 357px;
+        height: 360px; }
+        #use .use_floor > div:first-of-type {
+          height: 340px; }
+        #use .use_floor > div:last-of-type {
+          height: 83px; }
+        #use .use_floor > div div {
+          float: left;
+          width: 357px;
+          height: 227px;
+          margin-right: 0px; }
+          #use .use_floor > div div:last-of-type {
+            margin-right: 0;
+            display: none; }
+  #footBox {
+    width: 100%;
+    margin-top: 100px; }
+    #footBox ul {
+      width: 335px;
+      height: 65px;
+      margin-top: 30px;
+      text-align: center; }
+      #footBox ul li {
+        padding: 5px 5px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  #wrap {
+    position: relative;
+    width: 100%;
+    height: auto; }
+  #headBox {
+    width: 500px;
+    height: auto;
+    padding-top: 45px; }
+    #headBox h1 {
+      float: left;
+      width: 122px;
+      height: 33px;
+      background-image: url("../../img/white_logo_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      margin: 0 auto;
+      background-size: auto; }
+      #headBox h1 a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    #headBox #gnb_mob {
+      display: block;
+      float: right;
+      width: 29px;
+      height: 24px;
+      background-image: url("../../img/icon/gnb_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      #headBox #gnb_mob > button {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+    #headBox #gnb {
+      display: none; }
+  #use_contentBox #use_viewBox .use_menu {
+    width: 100%;
+    height: 170px; }
+    #use_contentBox #use_viewBox .use_menu .use_nav {
+      width: 100%;
+      height: 80px;
+      background-color: #a88771; }
+  #use {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 150px; }
+    #use h3 {
+      font-size: 20px;
+      text-align: center;
+      line-height: 18px;
+      margin-bottom: 30px; }
+      #use h3 span {
+        font-size: 13px;
+        text-transform: uppercase; }
+    #use .use_text {
+      display: block;
+      width: 450px;
+      margin: auto;
+      word-break: keep-all; }
+  #footBox {
+    width: 100%;
+    margin-top: 100px; }
+    #footBox ul {
+      width: 335px;
+      height: 65px;
+      margin-top: 30px;
+      text-align: center; }
+      #footBox ul li {
+        padding: 5px 5px; } }

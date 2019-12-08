@@ -1,22 +1,11 @@
 // seoul_botanicpark main
 
-@import "./_basic/mixin";
-@import "./_basic/var";
+@import "../_basic/mixin";
+@import "../_basic/var";
+@import "../_basic/common";
 
 #wrap{position:relative; width:100%; height:auto;}
-#headBox{position:absolute; left:50%; transform:translateX(-50%); z-index:100;
-         width:1063px; height:80px; padding-top:20px; box-sizing:border-box;
-  h1{float:left; width:180px; height:50px; 
-     @include BgImage('white_logo.png'); margin:0 auto; background-size:80%;}
-  #gnb_mob{display:none;}
-  #gnb{float:right; width:790px; height:50px;
-   a{color:$white;}
-  .gnb_menu{
-    li{float:left; padding:15px 28px; text-align:center; font-size:15px;}}
-  .gnb_member{float:right; text-align:center; font-size:14px; margin-top:15px;
-    a{&:first-of-type{margin-right:15px;}}}
-  }//gnb
-} //headBox
+#headBox{@include headBox_web} //headBox
 
 #contentBox{position:relative; width:100%; height:880px; $count:4;
  #viewBox{width:100%; height:750px; overflow:hidden;
@@ -36,7 +25,7 @@
         >div{float:left; width:100%/$count; height:100%;}
         .img01{@include BgImage('bgimg/main_01_web.jpg'); background-size:auto;}
         .img02{@include BgImage('bgimg/main_02_web.jpg'); background-size:auto;}
-        .img03{@include BgImage('bgimg/main_07_web.jpg'); background-size:auto;}
+        .img03{@include BgImage('bgimg/main_03_web.jpg'); background-size:auto;}
         .img04{@include BgImage('bgimg/main_04_web.jpg'); background-size:auto;}
       }
     }
@@ -67,7 +56,6 @@
       a{display:block; width:100%; height:100%;}}
   article{position:relative; float:left; width:200px; height:200px; margin-right:10px; margin-bottom:10px; background-color:#ddd;
           &:nth-of-type(3n){margin-right:0;}
-          // &:before{content:" "; display:block; position:absolute; top:0px; left:0px; width:90%; height:90%; border:2px solid $white;}
           a{display:block; width:100%; height:100%;
             .today_text{display:none; position:absolute; width:100%; height:100%; top:33px;
                         text-align:center; font-size:14px; line-height:20px; color:$white;
@@ -159,9 +147,7 @@
     }//ul
   }//sns
 
-#footBox{width:100%; height:130px; margin-top:50px; background-color:$Green;
- ul{width:720px; height:auto; margin:auto; margin-top:35px;
-  li{float:left; padding:20px 10px; font-size:15px;}}}
+#footBox{@include footBox_web}
 
 
 @media screen and (max-width:767px){@import "seoul_main_480";}

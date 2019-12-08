@@ -1,0 +1,85 @@
+// seoul_botanicpark sub_story
+
+@import "../_basic/mixin";
+@import "../_basic/var";
+@import "../_basic/common";
+
+#wrap{position:relative; width:100%; height:auto;}
+#headBox{@include headBox_web;}
+#story_contentBox{width:100%; height:auto;
+  #story_viewBox{position:relative; width:100%; height:450px;
+    @include BgImage('bgimg/main_01.jpg'); background-position:0 0; background-size:auto;
+    .story_menu{position:absolute; width:100%; height:140px; bottom:-40px;
+      h3{font-size:20px; text-align:center; color:$white}
+      .story_nav{width:830px; height:80px; background-color:$Purple; margin:auto; margin-top:30px;
+        ul{width:488px; height:100%; margin:auto; font-size:16px;
+          li{float:left; padding:28px 20px;
+            >a{color:$white;}}}}
+    }}//story_viewBox
+  #vison_mission{width:100%; height:auto; text-align:center; margin-top:150px;
+   .mission{width:655px; height:288px; margin:auto; margin-top:100px;
+     h3{@include zoneTitle(center)}
+     i{display:block; width:90px; height:90px; margin:auto; margin-bottom:20px;}
+     p{text-align:center; font-size:18px; font-weight:bold; margin-bottom:20px;}
+     span{display:inline-block; font-size:15px; line-height:20px;}
+     div{float:left; margin-right:50px;
+      &:last-of-type{margin-right:0;}
+      &:nth-of-type(1){i{@include BgImage('icon/learning.png'); background-size:auto;}}
+      &:nth-of-type(2){i{@include BgImage('icon/important.png'); background-size:auto;}}
+      &:nth-of-type(3){i{@include BgImage('icon/preservation.png'); background-size:auto;}}
+      &:nth-of-type(4){i{@include BgImage('icon/positivity.png'); background-size:auto;}}
+    }//div_common
+    }//mission
+   .PaP{position:relative; width:100%; height:570px; margin:auto; margin-top:150px; text-align:center;
+    &:before{position:absolute; content:" "; display:block; width:100%; height:270px; z-index:-1; bottom:0;
+             @include BgImage('bgimg/main_01.jpg'); background-size:auto;}        
+     h3{@include zoneTitle(center)}
+     .pap_list{width:725px; height:auto; margin:auto;
+      div{float:left; width:170px; height:255px; margin-right:10px; margin-top:70px; box-sizing:border-box; background-color:$white;
+          border:1px solid $Purple;
+      .number{display:block; width:45px; height:45px; background-color:$Purple; border-radius:100%; margin:auto; margin-top:20px;
+              font-size:20px; text-align:center; line-height:43px;  color:$white;}
+      .title{position:relative; display:block; font-size:18px; font-weight:bold; line-height:23px; margin-top:20px; margin-bottom:40px;
+        &:before{position:absolute; content:" "; bottom:-24px; left:0; right:0; margin:auto; 
+                 display:block; width:130px; height:1px; background-color:$Purple;}}
+      p{display:inline-block; width:109px; font-size:14px; line-height:20px; text-align:left; margin:auto;}
+      &:last-of-type{margin-right:0;}
+      &:nth-of-type(2){border-color:$Green;  .number{background-color:$Green;} p{width:122px;}  .title{&:before{background-color:$Green;}}}
+      &:nth-of-type(3){border-color:$Violet; .number{background-color:$Violet;} p{width:122px;} .title{&:before{background-color:$Violet;}}}
+      &:nth-of-type(4){border-color:$Brown;  .number{background-color:$Brown;} p{width:135px;}  .title{&:before{background-color:$Brown;}}}
+         }
+        }//pap_list
+      }//PaP
+    .vision{width:810px; height:514px; margin:auto; margin-top:150px; font-size:15px; line-height:23px;
+      h3{@include zoneTitle(center)}
+      >div{position:relative; float:left; width:260px; height:445px; margin-right:15px;
+        &:last-of-type{margin-right:0;}
+        &:nth-of-type(1){
+                         div{position:relative; @include BgImage('etc/vision_01.jpg'); background-size:auto;
+                          @include vision_mov($Purple); @include vision_hov;} }
+        &:nth-of-type(2){
+                        div{position:relative; @include BgImage('etc/vision_02.jpg'); background-size:auto;  
+                          @include vision_mov($Violet); @include vision_hov;} .number{background-color:$Violet} .title{color:$Violet}
+                         }
+        &:nth-of-type(3){
+                        div{position: relative; @include BgImage('etc/vision_03.jpg'); background-size:auto;  
+                          @include vision_mov($Green); @include vision_hov;} .number{background-color:$Green} .title{color:$Green}
+                         }
+        div{width:100%; height:260px;}
+        .number{position:absolute; bottom:163px; right:0; left:0; display:block; width:45px; height:45px; z-index:1;
+                background-color:$Purple; border-radius:100%; margin:auto;
+                font-size:19px; line-height:38px; color:$white; border:2px solid $white; box-sizing:border-box;}
+        .title{display:block; font-size:18px; font-weight:bold; margin-top:35px; margin-bottom:15px; color:$Purple;}
+      }
+    }
+  }//vison_mission
+}//story_contentBox
+#footBox{@include footBox_web; margin-top:100px;}
+
+@media screen and (max-width:767px){@import "seoul_story_480";}
+@media screen and (min-width:768px) and (max-width:1279px){@import "seoul_story_768";}
+
+
+
+
+

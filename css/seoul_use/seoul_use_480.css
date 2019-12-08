@@ -1,0 +1,123 @@
+#wrap {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+#headBox {
+  width: 355px;
+  height: auto;
+  padding-top: 45px; }
+  #headBox h1 {
+    float: left;
+    width: 122px;
+    height: 33px;
+    background-image: url("../../img/white_logo_mobile.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 auto;
+    background-size: auto; }
+    #headBox h1 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #headBox #gnb_mob {
+    display: block;
+    float: right;
+    width: 29px;
+    height: 24px;
+    background-image: url("../../img/icon/gnb_mobile.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    #headBox #gnb_mob > button {
+      display: block;
+      width: 100%;
+      height: 100%;
+      cursor: pointer; }
+  #headBox #gnb {
+    display: none; }
+
+#use_contentBox {
+  width: 100%;
+  height: auto; }
+  #use_contentBox #use_viewBox {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../img/bgimg/main_04.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-position: 0 10%; }
+    #use_contentBox #use_viewBox .use_menu {
+      position: absolute;
+      width: 100%;
+      height: 140px;
+      bottom: -40px; }
+      #use_contentBox #use_viewBox .use_menu h3 {
+        font-size: 20px;
+        text-align: center;
+        color: #fff; }
+      #use_contentBox #use_viewBox .use_menu .use_nav {
+        width: 100%;
+        height: 80px; }
+        #use_contentBox #use_viewBox .use_menu .use_nav ul {
+          width: 375px; }
+          #use_contentBox #use_viewBox .use_menu .use_nav ul li {
+            padding: 28px 10px; }
+
+#use {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 150px; }
+  #use .use_text {
+    display: block;
+    width: 330px;
+    margin: auto;
+    word-break: keep-all; }
+  #use .use_floor {
+    width: 100%;
+    height: auto;
+    margin-top: 50px; }
+    #use .use_floor h4 {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    #use .use_floor p {
+      word-break: keep-all; }
+      #use .use_floor p:after {
+        content: " ";
+        display: block;
+        width: 310px;
+        height: 1px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        background-color: #a88771; }
+    #use .use_floor > div {
+      width: 357px;
+      height: 360px; }
+      #use .use_floor > div:first-of-type {
+        height: 340px; }
+      #use .use_floor > div:last-of-type {
+        height: 83px; }
+      #use .use_floor > div div {
+        float: left;
+        width: 357px;
+        height: 227px;
+        margin-right: 0px; }
+        #use .use_floor > div div:last-of-type {
+          margin-right: 0;
+          display: none; }
+
+#footBox {
+  width: 100%;
+  margin-top: 100px; }
+  #footBox ul {
+    width: 335px;
+    height: 65px;
+    margin-top: 30px;
+    text-align: center; }
+    #footBox ul li {
+      padding: 5px 5px; }

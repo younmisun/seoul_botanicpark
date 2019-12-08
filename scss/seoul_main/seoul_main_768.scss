@@ -1,24 +1,19 @@
-//seoul_main_480
-@import "./_basic/mixin";
-@import "./_basic/var";
+//seoul_main_768
+@import "../_basic/mixin";
+@import "../_basic/var";
+@import "../_basic/common";
 
-#headBox{width:355px; height:auto; padding-top:45px;
-h1{float:left; width:122px; height:33px; 
-  @include BgImage('white_logo_mobile.png'); margin:0 auto; background-size:auto;} 
-#gnb_mob{display:block; float:right; width:29px; height:24px; @include BgImage('icon/gnb_mobile.png');
-  >a{display:block; width:100%; height:100%;}}
-#gnb{display:none;}
-}
+#headBox{@include headBox_mobile_768;}
 
 #contentBox{width:100%; height:895px;
   #viewBox{width:100%; height:550px;
-    .slide_indicator{display:none;}
+    .slide_indicator{top:330px; bottom:inherit;}
     .view_img{
       .imgList_view{
-      .img01{@include BgImage('bgimg/main_01_mobile_480.jpg');}
-      .img02{@include BgImage('bgimg/main_02_mobile_480.jpg');}
-      .img03{@include BgImage('bgimg/main_07_mobile_480.jpg');}
-      .img04{@include BgImage('bgimg/main_04_mobile_480.jpg');}
+      .img01{@include BgImage('bgimg/main_01_mobile_768.jpg');}
+      .img02{@include BgImage('bgimg/main_02_mobile_768.jpg');}
+      .img03{@include BgImage('bgimg/main_03_mobile_768.jpg');}
+      .img04{@include BgImage('bgimg/main_04_mobile_768.jpg');}
       }//imgList_view
     }//.view_img
   }//#viewBox
@@ -63,6 +58,4 @@ h1{float:left; width:122px; height:33px;
 #gallery{width:100%;
   .gallery_btn{display:none;}}
 
-#footBox{width:100%;
-  ul{width:335px; height:65px; margin-top:30px; text-align:center;
-  li{padding:5px 5px;}}}
+#footBox{@include footBox_mobile;}

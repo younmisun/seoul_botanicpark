@@ -6,6 +6,8 @@ ul,li,ol {list-style:none;}
 table, thead, tbody, tfoot, tr, th, td{margin:0; padding:0; border-spacing:0; border-collapse:collapse;}
 fieldset,button{width:auto; height:auto; margin:0; padding:0; border-style:none; background-color:transparent; outline:0;}
 
+button{font-family:inherit;}
+
 .input_hidden {width:auto; height:auto; margin:0; padding:0; border-style:none; background-color:transparent; outline:0;}
 
 .button_hidden{width:auto; height:auto; margin:0; padding:0; border-style:none; background-color:transparent;}

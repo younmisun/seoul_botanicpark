@@ -1,0 +1,77 @@
+//seoul_join.css
+
+@import "../_basic/mixin";
+@import "../_basic/var";
+@import "../_basic/common";
+
+#wrap{position:relative; width:100%; height:auto;}
+#headBox{@include headBox_web;}
+#join_contentBox{width:100%; height:auto;
+  #join_viewBox{position:relative; width:100%; height:450px;
+    @include BgImage('bgimg/main_03.jpg'); background-position:0 50%;
+    .join_menu{position:absolute; width:100%; height:140px; bottom:-40px;
+      h3{font-size:20px; text-align:center; color:$white}
+      .join_nav{width:830px; height:80px; background-color:$Green; margin:auto; margin-top:30px;
+        ul{width:228px; height:100%; margin:auto; font-size:16px;
+          li{float:left; padding:28px 20px;
+            >a{color:$white;}}}}
+    }}//join_viewBox
+  }//join_contentBox
+#join{width:100%; height:auto; text-align:center; margin-top:150px;
+  h3{@include zoneTitle(center)}
+  .join_text{p{margin:30px 0; font-weight:bold;}}
+  .tel{font-size:18px; font-weight:bold; margin:10px 0;}
+  .join_way{width:855px; height:580px; margin:auto;
+    >div{float:left; width:275px; height:100%; margin-right:15px;
+         border:1px solid; box-sizing:border-box;
+         &:last-of-type{margin-right:0;}
+         .join_titleZone{
+            i{display:block; width:110px; height:110px; margin:auto; margin-top:30px; margin-bottom:10px;}
+            .main_title{font-size:20px; font-weight:bold; line-height:25px;}
+            .tel{&:after{content:" "; display:block; width:120px; height:1px; margin:20px auto;}}} //join_titleZone
+         .join_contentZone{margin-bottom:20px;
+            div{&:first-of-type{margin-bottom:20px;}}
+            .number{display:block; width:30px; height:30px; margin:5px auto; border-radius:100%;
+                    font-size:13px; line-height:30px; color:$white;}
+            .title{display:inline-block; font-size:15px; font-weight:bold; margin-bottom:10px;}
+            p{font-size:15px; line-height:20px;}}
+      &:nth-of-type(1){border-color:$Purple;
+        i{@include BgImage('icon/personal.png'); background-size:auto;}
+        .tel{&:after{background-color:$Purple;}}
+        .number{background-color:$Purple;}}
+      &:nth-of-type(2){border-color:$Green;
+        i{@include BgImage('icon/group.png'); background-size:auto; width:175px;}
+        .tel{&:after{background-color:$Green;}}
+        .number{background-color:$Green;}
+        .title{margin-top:1px;}}
+      &:nth-of-type(3){border-color:$Violet;
+        i{@include BgImage('icon/children.png'); background-size:auto;}
+        .tel{&:after{background-color:$Violet;}}
+        .number{background-color:$Violet;}}
+    }
+  }//joy_way
+  .join_step{width:705px; height:351px; text-align:center; margin:auto; margin-top:150px;
+    div{float:left; width:165px; height:270px; margin-top:30px; margin-right:15px;
+      &:last-of-type{margin-right:0;}
+      &:nth-of-type(1){.number{background-color:$Brown;} i{@include BgImage('icon/apply.png'); background-size:auto;}}
+      &:nth-of-type(2){.number{background-color:$Purple;}i{@include BgImage('icon/interview.png'); background-size:auto;}}
+      &:nth-of-type(3){.number{background-color:$Violet;}i{@include BgImage('icon/date.png'); background-size:auto;}}
+      &:nth-of-type(4){.number{background-color:$Green;} i{@include BgImage('icon/certification.png'); background-size:auto;}}
+    }
+    .number{display:block; width:30px; height:30px; margin:auto; color:$white;
+            border-radius:100%; font-size:13px; line-height:30px;}
+    i{display:block; width:165px; height:165px;}
+    p{font-size:18px; margin:15px; line-height:21px;}
+  }//join_step
+  .join_area{width:615px; height:140px; margin:150px auto; font-size:15px; text-align:left; line-height:30px;
+    ul{
+      li{float:left; width:300px; height:auto;
+        &:nth-child(odd){margin-right:15px;}
+        &:last-child{margin-right:0;}
+    }
+    }}
+  }
+#footBox{@include footBox_web; margin-top:100px;}
+
+@media screen and (max-width:767px){@import "seoul_join_480";}
+@media screen and (min-width:768px) and (max-width:1279px){@import "seoul_join_768";}

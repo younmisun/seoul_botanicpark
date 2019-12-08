@@ -1,0 +1,507 @@
+#wrap {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+#headBox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  width: 1063px;
+  height: 80px;
+  padding-top: 20px;
+  box-sizing: border-box; }
+  #headBox h1 {
+    float: left;
+    width: 180px;
+    height: 50px;
+    background-image: url("../../img/white_logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 auto;
+    background-size: 80%; }
+    #headBox h1 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #headBox #gnb_mob {
+    display: none; }
+  #headBox #gnb {
+    float: right;
+    width: 790px;
+    height: 50px; }
+    #headBox #gnb a {
+      color: #fff; }
+    #headBox #gnb .gnb_menu li {
+      float: left;
+      padding: 15px 28px;
+      text-align: center;
+      font-size: 15px; }
+    #headBox #gnb .gnb_member {
+      float: right;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 15px; }
+      #headBox #gnb .gnb_member a:first-of-type {
+        margin-right: 15px; }
+
+#around_contentBox {
+  width: 100%;
+  height: auto; }
+  #around_contentBox #around_viewBox {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../img/bgimg/main_02.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-position: 0 90%; }
+    #around_contentBox #around_viewBox .around_menu {
+      position: absolute;
+      width: 100%;
+      height: 140px;
+      bottom: -40px; }
+      #around_contentBox #around_viewBox .around_menu h3 {
+        font-size: 20px;
+        text-align: center;
+        color: #fff; }
+      #around_contentBox #around_viewBox .around_menu .around_nav {
+        width: 830px;
+        height: 80px;
+        background-color: #6e77a3;
+        margin: auto;
+        margin-top: 30px; }
+        #around_contentBox #around_viewBox .around_menu .around_nav ul {
+          width: 436px;
+          height: 100%;
+          margin: auto;
+          font-size: 16px; }
+          #around_contentBox #around_viewBox .around_menu .around_nav ul li {
+            float: left;
+            padding: 28px 20px; }
+            #around_contentBox #around_viewBox .around_menu .around_nav ul li > a {
+              color: #fff; }
+
+#forest {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 150px; }
+  #forest h3 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 18px;
+    margin-bottom: 30px; }
+    #forest h3 span {
+      font-size: 13px;
+      text-transform: uppercase; }
+  #forest .keyFacility {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    #forest .keyFacility p {
+      font-size: 18px;
+      font-weight: bold;
+      color: #6e77a3;
+      margin-bottom: 10px; }
+      #forest .keyFacility p:before {
+        content: " ";
+        display: block;
+        width: 65px;
+        height: 5px;
+        background-color: #6e77a3;
+        margin: auto;
+        margin-bottom: 5px; }
+  #forest .forest_map {
+    width: 100%;
+    height: auto;
+    margin-top: 50px; }
+    #forest .forest_map .map_img {
+      position: relative;
+      width: 795px;
+      height: 465px;
+      background-image: url("../../img/seoul_map.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 80px; }
+    #forest .forest_map .map_button div {
+      width: 42px;
+      height: 42px;
+      border-radius: 100%; }
+      #forest .forest_map .map_button div:nth-of-type(1) {
+        position: absolute;
+        bottom: 170px;
+        left: 100px;
+        background-color: #55a37c; }
+      #forest .forest_map .map_button div:nth-of-type(2) {
+        position: absolute;
+        bottom: 160px;
+        left: 190px;
+        background-color: #ae637c; }
+      #forest .forest_map .map_button div:nth-of-type(3) {
+        position: absolute;
+        bottom: 120px;
+        left: 360px;
+        background-color: #6e77a3; }
+      #forest .forest_map .map_button div:nth-of-type(4) {
+        position: absolute;
+        bottom: 155px;
+        left: 425px;
+        background-color: #a88771; }
+      #forest .forest_map .map_button div button {
+        display: block;
+        width: 100%;
+        height: 42px;
+        font-size: 19px;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+        padding-bottom: 2px; }
+    #forest .forest_map .map_list {
+      width: 1045px;
+      height: 270px;
+      margin: auto; }
+      #forest .forest_map .map_list div {
+        float: left;
+        width: 250px;
+        height: 100%;
+        margin-right: 15px;
+        background-color: #fff;
+        border: 1px solid #55a37c;
+        box-sizing: border-box; }
+        #forest .forest_map .map_list div:last-of-type {
+          margin-right: 0; }
+        #forest .forest_map .map_list div .number {
+          display: block;
+          width: 42px;
+          height: 42px;
+          margin: auto;
+          margin-top: 30px;
+          margin-bottom: 10px;
+          background-color: #55a37c;
+          border-radius: 100%;
+          font-size: 19px;
+          font-weight: bold;
+          line-height: 40px;
+          color: #fff; }
+        #forest .forest_map .map_list div .title {
+          display: block;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center; }
+          #forest .forest_map .map_list div .title:after {
+            content: " ";
+            display: block;
+            width: 150px;
+            height: 1px;
+            margin: 25px auto;
+            background-color: #55a37c; }
+        #forest .forest_map .map_list div p {
+          font-size: 14px; }
+        #forest .forest_map .map_list div:nth-of-type(1) {
+          position: relative; }
+        #forest .forest_map .map_list div:nth-of-type(2) {
+          position: relative;
+          border-color: #ae637c; }
+          #forest .forest_map .map_list div:nth-of-type(2) .number {
+            background-color: #ae637c; }
+          #forest .forest_map .map_list div:nth-of-type(2) .title:after {
+            background-color: #ae637c; }
+        #forest .forest_map .map_list div:nth-of-type(3) {
+          position: relative;
+          border-color: #6e77a3; }
+          #forest .forest_map .map_list div:nth-of-type(3) .number {
+            background-color: #6e77a3; }
+          #forest .forest_map .map_list div:nth-of-type(3) .title:after {
+            background-color: #6e77a3; }
+        #forest .forest_map .map_list div:nth-of-type(4) {
+          position: relative;
+          border-color: #a88771; }
+          #forest .forest_map .map_list div:nth-of-type(4) .number {
+            background-color: #a88771; }
+          #forest .forest_map .map_list div:nth-of-type(4) .title:after {
+            background-color: #a88771; }
+
+#footBox {
+  width: 100%;
+  height: 130px;
+  margin-top: 50px;
+  background-color: #55a37c;
+  margin-top: 100px; }
+  #footBox ul {
+    width: 720px;
+    height: auto;
+    margin: auto;
+    margin-top: 35px; }
+    #footBox ul li {
+      float: left;
+      padding: 20px 10px;
+      font-size: 15px; }
+
+@media screen and (max-width: 767px) {
+  #wrap {
+    position: relative;
+    width: 100%;
+    height: auto; }
+  #headBox {
+    width: 355px;
+    height: auto;
+    padding-top: 45px; }
+    #headBox h1 {
+      float: left;
+      width: 122px;
+      height: 33px;
+      background-image: url("../../img/white_logo_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      margin: 0 auto;
+      background-size: auto; }
+      #headBox h1 a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    #headBox #gnb_mob {
+      display: block;
+      float: right;
+      width: 29px;
+      height: 24px;
+      background-image: url("../../img/icon/gnb_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      #headBox #gnb_mob > button {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+    #headBox #gnb {
+      display: none; }
+  #around_contentBox #around_viewBox .around_menu {
+    width: 100%;
+    height: 170px; }
+    #around_contentBox #around_viewBox .around_menu .around_nav {
+      width: 100%;
+      height: 80px;
+      background-color: #55a37c; }
+      #around_contentBox #around_viewBox .around_menu .around_nav ul {
+        width: 336px; }
+        #around_contentBox #around_viewBox .around_menu .around_nav ul li {
+          padding: 28px 10px; }
+  #forest {
+    margin-top: 100px; }
+    #forest .forest_text {
+      display: block;
+      width: 350px;
+      margin: auto;
+      word-break: keep-all; }
+    #forest .forest_map {
+      width: 100%;
+      height: 725px;
+      position: relative; }
+      #forest .forest_map .map_img {
+        position: relative;
+        width: 100%;
+        height: 305px;
+        background-position: 0 90%; }
+      #forest .forest_map .map_button div {
+        transform: scale(0.8); }
+        #forest .forest_map .map_button div:nth-of-type(1) {
+          position: absolute;
+          bottom: 100px;
+          left: 45px;
+          background-color: #55a37c; }
+        #forest .forest_map .map_button div:nth-of-type(2) {
+          position: absolute;
+          bottom: 90px;
+          left: 110px;
+          background-color: #ae637c; }
+        #forest .forest_map .map_button div:nth-of-type(3) {
+          position: absolute;
+          bottom: 80px;
+          left: 230px;
+          background-color: #6e77a3; }
+        #forest .forest_map .map_button div:nth-of-type(4) {
+          position: absolute;
+          bottom: 50px;
+          left: 280px;
+          background-color: #a88771; }
+      #forest .forest_map .map_list {
+        position: absolute;
+        top: 270px;
+        left: 0;
+        right: 0;
+        width: 405px;
+        height: 455px;
+        margin: auto; }
+        #forest .forest_map .map_list div {
+          float: left;
+          width: 200px;
+          height: 220px;
+          background-color: #fff;
+          border: 1px solid #55a37c;
+          box-sizing: border-box;
+          margin-right: 5px; }
+          #forest .forest_map .map_list div:last-of-type {
+            margin-right: 0; }
+          #forest .forest_map .map_list div .number {
+            width: 34px;
+            height: 34px;
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 35px; }
+          #forest .forest_map .map_list div .title {
+            display: block;
+            font-size: 18px; }
+            #forest .forest_map .map_list div .title:after {
+              margin: 15px auto; }
+          #forest .forest_map .map_list div p {
+            font-size: 13px; }
+          #forest .forest_map .map_list div:nth-of-type(1) {
+            margin-bottom: 5px; }
+          #forest .forest_map .map_list div:nth-of-type(2) {
+            margin-right: 0;
+            margin-bottom: 5px; }
+  #footBox {
+    width: 100%; }
+    #footBox ul {
+      width: 335px;
+      height: 65px;
+      margin-top: 30px;
+      text-align: center; }
+      #footBox ul li {
+        padding: 5px 5px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  #wrap {
+    position: relative;
+    width: 100%;
+    height: auto; }
+  #headBox {
+    width: 500px;
+    height: auto;
+    padding-top: 45px; }
+    #headBox h1 {
+      float: left;
+      width: 122px;
+      height: 33px;
+      background-image: url("../../img/white_logo_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      margin: 0 auto;
+      background-size: auto; }
+      #headBox h1 a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    #headBox #gnb_mob {
+      display: block;
+      float: right;
+      width: 29px;
+      height: 24px;
+      background-image: url("../../img/icon/gnb_mobile.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      #headBox #gnb_mob > button {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+    #headBox #gnb {
+      display: none; }
+  #around_contentBox #around_viewBox .around_menu {
+    width: 100%;
+    height: 170px; }
+    #around_contentBox #around_viewBox .around_menu .around_nav {
+      width: 100%;
+      height: 80px;
+      background-color: #55a37c; }
+  #forest {
+    margin-top: 100px; }
+    #forest .forest_text {
+      display: block;
+      width: 450px;
+      margin: auto;
+      word-break: keep-all; }
+    #forest .forest_map {
+      width: 100%;
+      height: 725px;
+      position: relative; }
+      #forest .forest_map .map_img {
+        position: relative;
+        width: 100%;
+        height: 305px;
+        background-position: 0 90%; }
+      #forest .forest_map .map_button div {
+        transform: scale(0.8); }
+        #forest .forest_map .map_button div:nth-of-type(1) {
+          position: absolute;
+          bottom: 140px;
+          left: 90px;
+          background-color: #55a37c; }
+        #forest .forest_map .map_button div:nth-of-type(2) {
+          position: absolute;
+          bottom: 130px;
+          left: 160px;
+          background-color: #ae637c; }
+        #forest .forest_map .map_button div:nth-of-type(3) {
+          position: absolute;
+          bottom: 100px;
+          left: 330px;
+          background-color: #6e77a3; }
+        #forest .forest_map .map_button div:nth-of-type(4) {
+          position: absolute;
+          bottom: 50px;
+          left: 410px;
+          background-color: #a88771; }
+      #forest .forest_map .map_list {
+        position: absolute;
+        top: 270px;
+        left: 0;
+        right: 0;
+        width: 415px;
+        height: 455px;
+        margin: auto; }
+        #forest .forest_map .map_list div {
+          float: left;
+          width: 200px;
+          height: 220px;
+          background-color: #fff;
+          border: 1px solid #55a37c;
+          box-sizing: border-box; }
+          #forest .forest_map .map_list div:last-of-type {
+            margin-right: 0; }
+          #forest .forest_map .map_list div .number {
+            width: 34px;
+            height: 34px;
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 35px; }
+          #forest .forest_map .map_list div .title {
+            display: block;
+            font-size: 18px; }
+            #forest .forest_map .map_list div .title:after {
+              margin: 15px auto; }
+          #forest .forest_map .map_list div p {
+            font-size: 13px; }
+          #forest .forest_map .map_list div:nth-of-type(1) {
+            margin-bottom: 15px; }
+          #forest .forest_map .map_list div:nth-of-type(2) {
+            margin-right: 0;
+            margin-bottom: 15px; }
+  #footBox {
+    width: 100%; }
+    #footBox ul {
+      width: 335px;
+      height: 65px;
+      margin-top: 30px;
+      text-align: center; }
+      #footBox ul li {
+        padding: 5px 5px; } }

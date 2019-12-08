@@ -8,7 +8,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean" rel="stylesheet">
 <link rel="stylesheet" href="../css/reset.css">
-<link rel="stylesheet" href="../css/seoul_main.css">
+<link rel="stylesheet" href="../css/seoul_main/seoul_main.css">
 
 <!--[lf lte ie 9]>
 <scirpt src="../ie/html5shiv/dist/thml5shiv.min.js"></scirpt>
@@ -28,15 +28,15 @@
 <!-- layout -->
 <div id="wrap">
   <header id="headBox">
-    <h1><a href="#"><span class="hidden">서울식물원</span></a></h1>
-    <div id="gnb_mob"><a href="#"><span class="hidden">모바일전용 네비게이션</span></a></div>
+    <h1><a href="seoul_main.html"><span class="hidden">서울식물원</span></a></h1>
+    <div id="gnb_mob"><button type="button"><span class="hidden">모바일전용 네비게이션</span></button></div>
     <nav id="gnb">
       <h2 class="hidden">메뉴</h2>
       <ul class="gnb_menu">
-        <li><a href="#">식물원 이야기</a></li>
-        <li><a href="#">둘러보기</a></li>
-        <li><a href="#">이용하기</a></li>
-        <li><a href="#">참여하기</a></li>
+        <li><a href="seoul_story.html">식물원 이야기</a></li>
+        <li><a href="seoul_around.html">둘러보기</a></li>
+        <li><a href="seoul_use.html">이용하기</a></li>
+        <li><a href="seoul_join.html">참여하기</a></li>
         <li><a href="#">식물정보</a></li>
       </ul>
       <div class="gnb_member">
@@ -71,25 +71,25 @@
         <span class="number">01</span>
         <span class="title">열린숲</span>
         <p>서울 식물원의 입구이자<br/>방문자 안내서비스가<br/>제공되는 공간</p>
-        <a href="#"><span class="hidden">더보기</span></a>
+        <a href="seoul_around.html"><span class="hidden">더보기</span></a>
       </article>
       <article class="themeGarden">
         <span class="number">02</span>
         <span class="title">주제원</span>
         <p>한국 자생식물로 이루어진<br/>주제정원과 열대 지중해 12개<br/>도시 식물들로 구성된 공간</p>
-        <a href="#"><span class="hidden">더보기</span></a>
+        <a href="seoul_around.html"><span class="hidden">더보기</span></a>
       </article>
       <article class="lakeAround">
         <span class="number">03</span>
         <span class="title">호수원</span>
         <p>호수 주변으로<br/>산책길과 수변관찰 데크가<br/>조성된 공간</p>
-        <a href="#"><span class="hidden">더보기</span></a>
+        <a href="seoul_around.html"><span class="hidden">더보기</span></a>
       </article>
       <article class="marshyAround">
         <span class="number">04</span>
         <span class="title">습지원</span>
         <p>서울식물원과<br/>한강이 만나는 지점<br/>물이 만든 경이로운 공간</p>
-        <a href="#"><span class="hidden">더보기</span></a>
+        <a href="seoul_around.html"><span class="hidden">더보기</span></a>
       </article>
     </section>
   </main>
@@ -193,8 +193,9 @@
 
 </div>
 <!-- script -->
-<script src="../../js/base/jquery-3.4.1.min.js"></script>
-<script src="../../js/base/jquery-ui.js"></script>
-<script src="../../js/src/jquery/seoul_main.js"></script>
+<script src="../js/base/jquery-3.4.1.min.js"></script>
+<script src="../js/base/jquery-ui.js"></script>
+<script src="../js/src/jquery/seoul_main.js"></script>
+<script src="../js/src/jquery/seoul_load.js"></script>
 </body>
 </html>

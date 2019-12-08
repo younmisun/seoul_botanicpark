@@ -58,7 +58,7 @@
   
   });
 
-  placeList.on('mouseenter',function(){$(this).animate({bottom:'15px'});});
+  placeList.on('mouseenter',function(){$(this).delay(200).animate({bottom:'15px'});});
   placeList.on('mouseleave',function(){$(this).animate({bottom:0})})
 
   

@@ -1,0 +1,375 @@
+#wrap {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+#headBox {
+  width: 500px;
+  height: auto;
+  padding-top: 45px; }
+  #headBox h1 {
+    float: left;
+    width: 122px;
+    height: 33px;
+    background-image: url("../../img/white_logo_mobile.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 auto;
+    background-size: auto; }
+    #headBox h1 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  #headBox #gnb_mob {
+    display: block;
+    float: right;
+    width: 29px;
+    height: 24px;
+    background-image: url("../../img/icon/gnb_mobile.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    #headBox #gnb_mob > button {
+      display: block;
+      width: 100%;
+      height: 100%;
+      cursor: pointer; }
+  #headBox #gnb {
+    display: none; }
+
+#story_contentBox #story_viewBox .story_menu {
+  width: 100%;
+  height: 170px; }
+  #story_contentBox #story_viewBox .story_menu .story_nav {
+    width: 100%;
+    height: 80px;
+    background-color: #ae637c; }
+
+#story_contentBox #vison_mission {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 150px; }
+  #story_contentBox #vison_mission .vision_text {
+    display: block;
+    width: 450px;
+    height: auto;
+    margin: auto;
+    word-break: keep-all; }
+  #story_contentBox #vison_mission .mission {
+    width: 300px;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px; }
+    #story_contentBox #vison_mission .mission div:last-of-type {
+      margin-right: 0; }
+    #story_contentBox #vison_mission .mission div:nth-of-type(1) {
+      margin-bottom: 30px; }
+    #story_contentBox #vison_mission .mission div:nth-of-type(2) {
+      margin-right: 0; }
+    #story_contentBox #vison_mission .mission div:nth-of-type(3) {
+      margin-right: 38px; }
+  #story_contentBox #vison_mission .PaP {
+    position: relative;
+    width: 100%;
+    height: 780px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center; }
+    #story_contentBox #vison_mission .PaP:before {
+      position: absolute;
+      content: " ";
+      display: block;
+      width: 100%;
+      height: 270px;
+      z-index: -1;
+      bottom: 128px; }
+    #story_contentBox #vison_mission .PaP .PaP_text {
+      display: block;
+      width: 450px;
+      margin: auto;
+      word-break: keep-all; }
+    #story_contentBox #vison_mission .PaP .pap_list {
+      width: 350px;
+      height: auto;
+      margin: auto; }
+      #story_contentBox #vison_mission .PaP .pap_list div:last-of-type {
+        margin-right: 0; }
+      #story_contentBox #vison_mission .PaP .pap_list div:nth-of-type(2) {
+        margin-right: 0; }
+      #story_contentBox #vison_mission .PaP .pap_list div:nth-of-type(3) {
+        margin-top: 10px; }
+      #story_contentBox #vison_mission .PaP .pap_list div:nth-of-type(4) {
+        margin-top: 10px; }
+  #story_contentBox #vison_mission .vision {
+    width: 260px;
+    height: 1400px;
+    margin: auto;
+    margin-top: 150px;
+    font-size: 15px;
+    line-height: 23px; }
+    #story_contentBox #vison_mission .vision h3 {
+      font-size: 20px;
+      text-align: center;
+      line-height: 18px;
+      margin-bottom: 30px; }
+      #story_contentBox #vison_mission .vision h3 span {
+        font-size: 13px;
+        text-transform: uppercase; }
+    #story_contentBox #vison_mission .vision > div {
+      position: relative;
+      float: left;
+      width: 260px;
+      height: 445px;
+      margin-right: 0px;
+      margin-bottom: 30px; }
+      #story_contentBox #vison_mission .vision > div:nth-of-type(1) div {
+        position: relative;
+        background-image: url("../../img/etc/vision_01.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-size: auto; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div .bottom {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 5px;
+          background-color: #ae637c;
+          transition: all 0.2s ease; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div .right {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 5px;
+          height: 0;
+          background-color: #ae637c;
+          transition: all 0.2s ease 0.2s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div .left {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 5px;
+          height: 0;
+          background-color: #ae637c;
+          transition: all 0.2s ease 0.2s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div .top {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 5px; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div .top:before {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 5px;
+          background-color: #ae637c;
+          transition: all 0.2s ease 0.4s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div .top:after {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 0;
+          height: 5px;
+          background-color: #ae637c;
+          transition: all 0.2s ease 0.4s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div:hover .bottom {
+          width: 100%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div:hover .right {
+          height: 100%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div:hover .top:before, #story_contentBox #vison_mission .vision > div:nth-of-type(1) div:hover .top:after {
+          width: 50%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(1) div:hover .left {
+          height: 100%; }
+      #story_contentBox #vison_mission .vision > div:nth-of-type(2) div {
+        position: relative;
+        background-image: url("../../img/etc/vision_02.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-size: auto; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div .bottom {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 5px;
+          background-color: #6e77a3;
+          transition: all 0.2s ease; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div .right {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 5px;
+          height: 0;
+          background-color: #6e77a3;
+          transition: all 0.2s ease 0.2s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div .left {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 5px;
+          height: 0;
+          background-color: #6e77a3;
+          transition: all 0.2s ease 0.2s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div .top {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 5px; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div .top:before {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 5px;
+          background-color: #6e77a3;
+          transition: all 0.2s ease 0.4s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div .top:after {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 0;
+          height: 5px;
+          background-color: #6e77a3;
+          transition: all 0.2s ease 0.4s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div:hover .bottom {
+          width: 100%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div:hover .right {
+          height: 100%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div:hover .top:before, #story_contentBox #vison_mission .vision > div:nth-of-type(2) div:hover .top:after {
+          width: 50%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(2) div:hover .left {
+          height: 100%; }
+      #story_contentBox #vison_mission .vision > div:nth-of-type(2) .number {
+        background-color: #6e77a3; }
+      #story_contentBox #vison_mission .vision > div:nth-of-type(2) .title {
+        color: #6e77a3; }
+      #story_contentBox #vison_mission .vision > div:nth-of-type(3) div {
+        position: relative;
+        background-image: url("../../img/etc/vision_03.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-size: auto; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div .bottom {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 5px;
+          background-color: #55a37c;
+          transition: all 0.2s ease; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div .right {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 5px;
+          height: 0;
+          background-color: #55a37c;
+          transition: all 0.2s ease 0.2s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div .left {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 5px;
+          height: 0;
+          background-color: #55a37c;
+          transition: all 0.2s ease 0.2s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div .top {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 5px; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div .top:before {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 5px;
+          background-color: #55a37c;
+          transition: all 0.2s ease 0.4s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div .top:after {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 0;
+          height: 5px;
+          background-color: #55a37c;
+          transition: all 0.2s ease 0.4s; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div:hover .bottom {
+          width: 100%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div:hover .right {
+          height: 100%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div:hover .top:before, #story_contentBox #vison_mission .vision > div:nth-of-type(3) div:hover .top:after {
+          width: 50%; }
+        #story_contentBox #vison_mission .vision > div:nth-of-type(3) div:hover .left {
+          height: 100%; }
+      #story_contentBox #vison_mission .vision > div:nth-of-type(3) .number {
+        background-color: #55a37c; }
+      #story_contentBox #vison_mission .vision > div:nth-of-type(3) .title {
+        color: #55a37c; }
+      #story_contentBox #vison_mission .vision > div div {
+        width: 100%;
+        height: 260px; }
+      #story_contentBox #vison_mission .vision > div .number {
+        position: absolute;
+        bottom: 163px;
+        right: 0;
+        left: 0;
+        display: block;
+        width: 45px;
+        height: 45px;
+        z-index: 1;
+        background-color: #ae637c;
+        border-radius: 100%;
+        margin: auto;
+        font-size: 19px;
+        line-height: 38px;
+        color: #fff;
+        border: 2px solid #fff;
+        box-sizing: border-box; }
+      #story_contentBox #vison_mission .vision > div .title {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        color: #ae637c; }
+
+#footBox {
+  width: 100%;
+  height: 130px;
+  margin-top: 50px;
+  background-color: #55a37c;
+  margin-top: 100px; }
+  #footBox ul {
+    width: 720px;
+    height: auto;
+    margin: auto;
+    margin-top: 35px; }
+    #footBox ul li {
+      float: left;
+      padding: 20px 10px;
+      font-size: 15px; }

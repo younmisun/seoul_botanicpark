@@ -1,0 +1,49 @@
+//seoul_botanicpark_common
+
+@mixin headBox_web {
+  position:absolute; left:50%; transform:translateX(-50%); z-index:100;
+  width:1063px; height:80px; padding-top:20px; box-sizing:border-box;
+  h1{float:left; width:180px; height:50px; 
+  @include BgImage('white_logo.png'); margin:0 auto; background-size:80%;
+  a{display:block; width:100%; height:100%;}}
+  #gnb_mob{display:none;}
+  #gnb{float:right; width:790px; height:50px;
+    a{color:$white;}
+  .gnb_menu{
+    li{float:left; padding:15px 28px; text-align:center; font-size:15px;}}
+  .gnb_member{float:right; text-align:center; font-size:14px; margin-top:15px;
+    a{&:first-of-type{margin-right:15px;}}}
+  }
+}
+
+@mixin headBox_mobile_768 {
+  width:500px; height:auto; padding-top:45px;
+  h1{float:left; width:122px; height:33px; 
+     @include BgImage('white_logo_mobile.png'); margin:0 auto; background-size:auto;
+     a{display:block; width:100%; height:100%;}}
+  #gnb_mob{display:block; float:right; width:29px; height:24px; @include BgImage('icon/gnb_mobile.png');
+     >button{display:block; width:100%; height:100%; cursor:pointer;}}
+  #gnb{display:none;}
+}
+
+@mixin headBox_mobile_480 {
+  width:355px; height:auto; padding-top:45px;
+  h1{float:left; width:122px; height:33px; 
+     @include BgImage('white_logo_mobile.png'); margin:0 auto; background-size:auto;
+    a{display:block; width:100%; height:100%;}} 
+  #gnb_mob{display:block; float:right; width:29px; height:24px; @include BgImage('icon/gnb_mobile.png');
+    >button{display:block; width:100%; height:100%; cursor:pointer;}}
+   #gnb{display:none;}
+}
+
+@mixin footBox_web{
+  width:100%; height:130px; margin-top:50px; background-color:$Green;
+  ul{width:720px; height:auto; margin:auto; margin-top:35px;
+  li{float:left; padding:20px 10px; font-size:15px;}}
+}
+
+@mixin footBox_mobile{
+  width:100%;
+  ul{width:335px; height:65px; margin-top:30px; text-align:center;
+  li{padding:5px 5px;}}
+}
