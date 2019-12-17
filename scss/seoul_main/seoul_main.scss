@@ -54,7 +54,8 @@
   .today_btn{position:absolute; top:10px; right:30px; width:43px; height:23px;
              @include BgImage('icon/more_icon_black.png'); background-size:auto;
       a{display:block; width:100%; height:100%;}}
-  article{position:relative; float:left; width:200px; height:200px; margin-right:10px; margin-bottom:10px; background-color:#ddd;
+  .today_list{
+    div{position:relative; float:left; width:200px; height:200px; margin-right:10px; margin-bottom:10px; background-color:#ddd;
           &:nth-of-type(3n){margin-right:0;}
           a{display:block; width:100%; height:100%;
             .today_text{display:none; position:absolute; width:100%; height:100%; top:33px;
@@ -62,7 +63,7 @@
                         em{display:block; font-style:normal; font-size:16px; line-height:70px;}
               &:before{content:" "; display:block; position:absolute; top:56px; left:0; right:0; margin:auto; border-radius:100%;
                        width:5px; height:5px; background-color:$white;}}}
-        }//article
+        }}//todaylist
   .today_img01{@include BgImage('todayprogram/today_img01.jpg');}
   .today_img02{@include BgImage('todayprogram/today_img02.jpg');}
   .today_img03{@include BgImage('todayprogram/today_img03.jpg');}

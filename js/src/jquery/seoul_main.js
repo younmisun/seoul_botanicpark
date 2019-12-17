@@ -14,8 +14,9 @@
   const place = conBox.find('#place');
   const placeList = place.find('article');
 
-  const todayPro = $('#today_program');
-  const todayProLink = todayPro.children('article').find('a');
+  // const todayPro = $('#today_program');
+  const todayList = $('.today_list')
+  const todayProLink = todayList.children('div').find('a');
 
   const gallery = $('#gallery');
   const galleryAll = gallery.children('.gallery_img');
