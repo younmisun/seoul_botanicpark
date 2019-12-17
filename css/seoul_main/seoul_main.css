@@ -434,7 +434,9 @@
         font-size: 14px;
         line-height: 20px;
         color: #fff; }
-        #today_program article a .today_text h4 {
+        #today_program article a .today_text em {
+          display: block;
+          font-style: normal;
           font-size: 16px;
           line-height: 70px; }
         #today_program article a .today_text:before {
@@ -571,7 +573,7 @@
       background-position: 50% 50%;
       background-size: cover;
       background-size: auto; }
-    #plant article:nth-of-type(1) p {
+    #plant article:nth-of-type(1) h4 {
       line-height: 50px; }
     #plant article:nth-of-type(2) a {
       background-color: #55a37c; }
@@ -581,7 +583,7 @@
       background-position: 50% 50%;
       background-size: cover;
       background-size: auto; }
-    #plant article:nth-of-type(2) p {
+    #plant article:nth-of-type(2) h4 {
       color: #55a37c; }
     #plant article:nth-of-type(2) span {
       color: #55a37c; }
@@ -595,13 +597,14 @@
         background-position: 50% 50%;
         background-size: cover;
         background-size: auto; }
-      #plant article:nth-of-type(3) p {
+      #plant article:nth-of-type(3) h4 {
         color: #a88771; }
-    #plant article p {
+    #plant article h4 {
       color: #ae637c;
       font-size: 18px;
       text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      font-weight: normal; }
     #plant article span {
       display: block;
       text-align: center;
