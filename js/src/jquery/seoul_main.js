@@ -14,6 +14,12 @@
   const place = conBox.find('#place');
   const placeList = place.find('article');
 
+  // mobile_btn
+  const mob = $('#gnbMob');
+  const mobBtn = mob.find('button');
+  const mobMenu = mob.children('.menu_area');
+
+
   // const todayPro = $('#today_program');
   const todayList = $('.today_list')
   const todayProLink = todayList.children('div').find('a');
@@ -24,6 +30,20 @@
   let galleryImg = galleryImgList.children('li');
   const galleryBtn = gallery.children('.gallery_btn').find('button');
 
+
+  //mobile_Btn
+  mobBtn.on('click',function(e){
+    e.preventDefault();
+    mobMenu.fadeToggle();
+    $(this).toggleClass('active'); 
+  });
+
+  mob.on('scroll touchmove mousewheel',function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  });
+  
 
   //viewSlide
   let i = 0;
